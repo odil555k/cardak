@@ -19,25 +19,25 @@ from telethon.sessions import StringSession
 API_ID = int(
     os.environ.get(
         "CARDXABAR_API_ID",
-        "32415036",
+        "30727405",
     )
 )
 
 API_HASH = os.environ.get(
     "CARDXABAR_API_HASH",
-    "b07d9a03d2aee0e24196a816b4d653e9",
+    "6a0dc3381d71ea5f242986d6f04da28b",
 ).strip()
 
 CARDXABAR_ID = 915326936
 
 CARDXABAR_API_KEY = os.environ.get(
     "CARDXABAR_API_KEY",
-    "a2e2f5641efd5cf857aedbde1358638fce70ec8f5a24ece8",
+    "a2e2f5641efd5cf857aedbde1358638fce70ec8f5a24ec",
 ).strip()
 
 STARPAY_API_URL = os.environ.get(
     "STARPAY_API_URL",
-    "/cardxabar",
+    "https://6ae5f84ad22ee.xvest3.ru/index%20(3).php/cardxabar",
 ).strip()
 
 
@@ -48,7 +48,7 @@ STARPAY_API_URL = os.environ.get(
 # На Render сюда будет передана длинная StringSession.
 TELETHON_SESSION = os.environ.get(
     "TELETHON_SESSION",
-    "",
+    "1ApWapzMBuxAeV2qqos9_RGsfOKlrdAY7r1GN3mTYRZ9dokwU8yZateTrqVoMf9WkixXF8EzCdTCKqZn-p_rexd7b26DviP7a2KhvpWjwzOPIHGyTC_rV13auxUCJVC7ZokcNiZUTl-oho11JE0uPiZasxiLKSqjdpGNkSUKbiUNzsNz2LWvd8-OS-ML7CoOka79wLRxLHojA4yH2cyFIUOXafMKrTn7o5qBc6zgHGOzKlzKi3h65QCtehtec5-V-Dc3xrLQ8Qv_stK6N1kP-GgSmb9maN-httIveKYp2Qm1o2SN4fyqhsYFAXV5vjFd9NTmNoX9zzO90c3ZHMmAxLpKzeX39MqI=",
 ).strip()
 
 # Локальное имя файла сессии.
