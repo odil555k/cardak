@@ -32,7 +32,7 @@ CARDXABAR_ID = 915326936
 
 CARDXABAR_API_KEY = os.environ.get(
     "CARDXABAR_API_KEY",
-    "a2e2f5641efd5cf857aedbde1358638fce70ec8f5a24ec",
+    "a2e2f5641efd5cf857aedbde1358638fce70ec8f5a24ec8",
 ).strip()
 
 STARPAY_API_URL = os.environ.get(
